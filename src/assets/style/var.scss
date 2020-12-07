@@ -1,0 +1,9 @@
+$main-color:#df2d2d;
+$text-color:#777;
+$active-color:#333;
+@mixin text-overflow{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
